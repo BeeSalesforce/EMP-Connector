@@ -1,0 +1,13 @@
+$ java -classpath 
+target/emp-connector-0.0.1-SNAPSHOT-phat.jar com.salesforce.emp.connector.example.DevLoginExample https://MyDomainName.my.salesforce.com <username> <password> <channel>
+
+
+https://beesdemos-dev-ed.develop.lightning.force.com
+beerowland@beesdemo.com
+Lun@L3if
+
+
+java -jar target/emp-connector-0.0.1-SNAPSHOT-phat.jar <username> <password> /data/Employee__ChangeEvent
+
+
+java -jar target/emp-connector-0.0.1-SNAPSHOT-phat.jar beerowland@beesdemo.com Lun@L3if /data/Employee__ChangeEvent
